@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 
 ion-content{
-  background:white;
+  // background:red;
+  height: 100vh;
 }
 *{
   h1,h2,h3,h4{
@@ -84,6 +85,7 @@ ion-navbar{
   justify-content: center;
   align-items: center;
 }
+
 .buttom-aggre p{
   font-size:17px;
   color:#fff;
@@ -132,6 +134,24 @@ ion-navbar{
   align-items: center;
 }
 
+.buttom-primary:active,
+.buttom-danger:active,
+.buttom-aggre:active,
+.buttom-medium:active
+{
+  transform: scale(0.95);
+}
+ion-app.ios [padding], ion-app.ios [padding] .scroll-content, ion-app.md [padding], ion-app.md [padding] .scroll-content, ion-app.wp [padding], ion-app.wp [padding] .scroll-content {
+    padding: 0px;
+}
+// [padding]{
+//   padding: 0 30px !important;
+//   // margin:0 30px !important;
+//   // background:red;
+//   border:1px solid red;
+// }
+
+
 .text-fotter{
   bottom: 0;
   text-align: center;
@@ -139,6 +159,7 @@ ion-navbar{
   color:#454F63;
 }
 .box-form-email{
+  margin:20px 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -148,39 +169,62 @@ ion-navbar{
   height:68px;
   background:#fff;
   box-shadow: 0px 3px 5px 0px rgba(12,20,61,0.2);
-}
-.input-active{
-  
-  height:37px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction:column;
-  label{
-    font-size:12px;
-    color:#1E5E92;
-  }
-  input{
-    color:#3D3D3D;
-    border:none;
-  }
-}
-
-.input-desactive{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction:column;
-  label{
-    font-size:12px;
-    color:#929DB8;
-  }
-  input{
-    border:none;
-  border-bottom: 1px solid rgba(69, 79, 99, 0.3);
+  .input-active{
+    width: 100%;
+    height:37px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    label{
+      font-size:12px;
+      color:#1E5E92;
+    }
+    input{
+      width: 100% !important;
+      overflow: initial;
+      color:#3D3D3D;
+      border:none;
+    }
   }
 }
 
+
+.box-form-password{
+  margin:20px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .input-desactive{
+    width: 100%;
+    height:37px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    label{
+      font-size:15px;
+      color:#929DB8;
+      margin-bottom: 17px;
+    }
+    input{
+      border:none;
+      border-bottom: 1px solid rgba(69, 79, 99, 0.3);
+    }
+  }
+}
+
+.label{
+  font-size:15px;
+  color:#3D3D3D;
+  padding:20px 0;
+  height: 23px;
+  line-height: 0;
+  display: flex;
+}
+.box-main-rrss{
+  margin:20px 0;
+}
 .rrss{
 display: flex;
 justify-content: flex-start;
-
+margin:20px 0;
 }
