@@ -8,10 +8,8 @@
 </style>
 <defs>
 </defs>
-<g id="Facebook_Icon_1_" transform="translate(-20 -525)">
-	<circle id="Elipse_15_1_" class="st0" cx="45" cy="550" r="20"/>
-	<circle id="Elipse_17_1_" class="st1" cx="45" cy="550" r="25"/>
-	<path id="facebook-f_1_" class="st2" d="M42.19,570v-12.52H38v-4.98h4.19v-3.92c0-4.26,2.6-6.58,6.4-6.58
-		c1.28,0,2.56,0.06,3.84,0.2v4.45H49.8c-2.07,0-2.47,0.98-2.47,2.42v3.43H52l-0.64,4.98h-4.03V570"/>
-</g>
+<circle id="Elipse_15_1_" class="st0" cx="25" cy="25" r="20"/>
+<circle id="Elipse_17_1_" class="st1" cx="25" cy="25" r="25"/>
+<path id="facebook-f_1_" class="st2" d="M22.19,45V32.48H18V27.5h4.19v-3.92c0-4.26,2.6-6.58,6.41-6.58c1.28,0,2.56,0.06,3.84,0.2
+	v4.45H29.8c-2.07,0-2.47,0.98-2.47,2.42v3.43H32l-0.64,4.98h-4.03V45"/>
 </svg>
