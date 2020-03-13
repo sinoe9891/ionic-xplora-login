@@ -18,23 +18,23 @@ export class LoginPage {
   tab2Root = AboutPage;
   tab3Root = ContactPage;
 
-  constructor(public navCtrl: NavController, public renderer: Renderer ) {
-
-// this.renderer.setElementClass(this.myButton.nativeElement, 'button', true);
   
+  variableBooleana:boolean = true;
+
+  constructor(public navCtrl: NavController, public renderer: Renderer ) {
+ 
   }
+
+  cambiarClase(){
+    this.variableBooleana = !this.variableBooleana
+    console.log(this.variableBooleana)
+  }
+
   changeStyle(){
     console.log(this.myButton);
-    // this.renderer.setElementStyle(this.myButton.nativeElement, 'padding', '0'); 
-    this.renderer.setElementClass(this.myButton.nativeElement, 'button', true);
-    this.renderer.setElementClass(this.myButton.nativeElement, 'button2', false);
-    // this.renderer.setElementClass(this.myButton, 'class1', false); // remove class1
-    // this.renderer.setElementClass(this.myButton, 'button', false);
-    // this.renderer.setElementClass(this.myButton.ElementRef , 'button2' + this.changeStyle , true);
-    // this.renderer.setElementClass(this.myButton, 'button', false);
-    // this.renderer.setElementClass(this.myButton, 'button2', true);
-    // this.renderer.setElementStyle.addClass(this.myButton.nativeElement, 'button2');
-    // this.renderer.setElementStyle(this.myButton.nativeElement, 'padding', '0');
+    // this.renderer.setElementClass(this.myButton.nativeElement, 'button', true);
+    // this.renderer.setElementClass(this.myButton.nativeElement, 'button2', false);
+    this.renderer.setElementStyle(this.myButton.nativeElement, 'padding', '0');
   }
 
 }
