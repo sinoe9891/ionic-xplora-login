@@ -12,7 +12,7 @@ export class LoginPage {
 
 
   // @ViewChild('myButton') mybutton: ElementRef;
-  @ViewChild('myButton', {read: ElementRef}) myButton;
+  // @ViewChild('myButton', {read: ElementRef}) myButton;
   
   tab1Root = LoginPage;
   tab2Root = AboutPage;
@@ -27,16 +27,16 @@ export class LoginPage {
 
   cambiarClase(){
     this.variableBooleana = !this.variableBooleana
-    this.renderer.setElementStyle(this.myButton.nativeElement, 'padding', '0');
+    // this.renderer.setElementStyle(this.myButton.nativeElement, 'padding', '0');
     console.log(this.variableBooleana)
-    console.log(this.myButton);
+    // console.log(this.myButton);
   }
 
-  changeStyle(){
-    console.log(this.myButton);
-    // this.renderer.setElementClass(this.myButton.nativeElement, 'button', true);
-    // this.renderer.setElementClass(this.myButton.nativeElement, 'button2', false);
-    this.renderer.setElementStyle(this.myButton.nativeElement, 'padding', '0');
-  }
+  // changeStyle(){
+  //   console.log(this.myButton);
+  //   // this.renderer.setElementClass(this.myButton.nativeElement, 'button', true);
+  //   // this.renderer.setElementClass(this.myButton.nativeElement, 'button2', false);
+  //   this.renderer.setElementStyle(this.myButton.nativeElement, 'padding', '0');
+  // }
 
 }
