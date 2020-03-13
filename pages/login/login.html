@@ -162,11 +162,11 @@ aplicación de Honduras</h3>
 				</p>
 			</div>
 			<form>
-				<div class="box-form-email">
-					<div class="input-active">
+				<div class="{{variableBooleana ? 'box-form-email' : 'box-form-password'}}">
+					<div class="{{variableBooleana ? 'input-active' : 'input-desactive'}}">
 						<label for="lfname">Correo Electrónico</label>
 						<div style="display:flex">
-							<input id="lfname" name="fname" type="email" placeholder="xplora_user@email.com" />
+							<input id="lfname" name="fname" type="email" placeholder="xplora_user@email.com" (click)="cambiarClase()"/>
 							<div>
 								<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In  -->
 								<svg version="1.1" xmlns="http://www.w3.org/2000/svg"

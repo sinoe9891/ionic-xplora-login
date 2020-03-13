@@ -27,7 +27,9 @@ export class LoginPage {
 
   cambiarClase(){
     this.variableBooleana = !this.variableBooleana
+    this.renderer.setElementStyle(this.myButton.nativeElement, 'padding', '0');
     console.log(this.variableBooleana)
+    console.log(this.myButton);
   }
 
   changeStyle(){
