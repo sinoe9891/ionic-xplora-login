@@ -137,7 +137,8 @@ ion-navbar{
 .buttom-primary:active,
 .buttom-danger:active,
 .buttom-aggre:active,
-.buttom-medium:active
+.buttom-medium:active,
+.buttom-light:active
 {
   transform: scale(0.95);
 }
@@ -170,7 +171,7 @@ ion-app.ios [padding], ion-app.ios [padding] .scroll-content, ion-app.md [paddin
   background:#fff;
   box-shadow: 0px 3px 5px 0px rgba(12,20,61,0.2);
   .input-active{
-    width: 100%;
+    width: 100% !important;
     height:37px;
     display: flex;
     justify-content: flex-start;
